@@ -5,4 +5,4 @@
     $npm start
 ````
 
-Manuel E. de Paz Carmona
+Thanks!
