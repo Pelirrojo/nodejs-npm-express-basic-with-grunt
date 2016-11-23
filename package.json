@@ -6,15 +6,22 @@
   "private": true,
   "scripts": {
     "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "doc_apidoc": "api-doc src -output /doc",
+    "doc_grunt": "grunt api-doc",
     "custom": "node --version",
-    "standarize": "standard-format -w",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "standarize": "standard-format -w"
   },
   "author": "manuel.depaz@gmail.com",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.14.0",
+    "request": "^2.79.0"
   },
   "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-apidoc": "^0.11.0",
+    "grunt-cli": "^1.2.0",
     "standard-format": "^2.2.3"
   }
 }
