@@ -12,7 +12,7 @@
     "custom": "node --version",
     "standarize": "standard-format -w"
   },
-  "author": "manuel.depaz@gmail.com",
+  "author": "manuel.depaz.geek@gmail.com",
   "license": "MIT",
   "dependencies": {
     "express": "^4.14.0",
